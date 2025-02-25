@@ -1,0 +1,402 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.First-container{
+    width: 1200px;
+
+}
+.First-container img{
+  margin-top: 10px;
+}
+
+.Second-Container{
+  display: flex;
+  
+ 
+}
+.Icon-Container{
+ margin-left: 250px;
+ margin-top: -10px;
+ 
+}
+.Main-Heading h1{
+  font-size:25px;
+  margin-left: 120px;
+  margin-top: 10px;
+  font-family: sans-serif;
+}
+.Main-Heading h3{
+  margin-top: 10px;
+  margin-left: 150px;
+  font-size: 14px;
+  color: rgb(100, 97, 97);
+  font-family: sans-serif;
+  font-weight: lighter;
+}
+.student button{
+  align-items: center;
+  justify-content: center;
+  border: 2px solid rgb(76, 76, 245);
+  border-radius: 40px;
+  width: 160px;
+  height: 40px;
+  margin-left: 100px;
+  margin-top: 10px;
+  color: rgb(57, 57, 255);
+  
+}
+.student img  {
+  margin-top: -2px;
+ vertical-align: top;
+ 
+}
+a {
+  text-decoration: none;
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+  height: 100%; 
+  padding: 10px 15px; 
+}
+
+.buttons {
+  width: 550px;
+  height: 50px;
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+  font-family: sans-serif;
+  color: rgb(39, 39, 255);
+  justify-content: center; 
+}
+
+.button1,
+.button2 {
+  width: 100px;
+  height: 20px; /* Ensure uniform height */
+  font-size: 12px;
+  border: 2px solid rgb(231, 222, 222);
+  font-family: sans-serif;
+  display: flex; /* Ensures content is centered */
+  align-items: center;
+  justify-content: center;
+}
+
+.button1 {
+  color: rgb(90, 148, 3);
+  background-color: white;
+}
+
+.button2 {
+  color: rgb(39, 39, 255);
+}
+.Card{
+ color: rgb(2, 82, 255);
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  font-size: 13px;
+}
+.Card input{
+  border: 1px solid rgb(24, 190, 2);
+  width: 500px;
+  height: 60px;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-left: 350px;
+  font-weight: bold; 
+ padding-left: 15px;
+}
+.Card label{
+  margin-top: 30px;
+ margin-left: -200px;
+}
+#Roll-number{
+  margin-left: -410px;
+}
+.submit{
+  background-color:  rgb(91, 160, 224);
+  width: 550px;
+  margin-top: 20px;
+  margin-left: 60px;
+  height: 40px;
+  border-radius: 7px ;
+  border: 2px solid rgb(91, 160, 224);
+  color: white;
+}
+.form-container{
+  font-size: 15px;
+  font-family: sans-serif;
+  color: rgb(0, 153, 255);
+}
+.first-container{
+  display: flex;
+   height: 100px;
+}
+.input1 label{
+position: relative;
+top: -45px;
+left: 280px;
+}
+.input2 label{
+  position: relative;
+  top: -45px;
+  left: 30px;
+  }
+.input1  select, .input2  select {
+ border: 1px solid rgb(24, 190, 2);
+ width: 450px;
+ height: 60px;
+border-radius: 7px;
+padding-left: 10px;
+color: gray;
+}
+.input1  select{
+  margin-left: 170px;
+}
+.input2  select {
+  margin-left: -50px;
+}
+.second-container{
+  display: flex;
+}
+.input3  select, .input4  select {
+  border: 1px solid rgb(24, 190, 2);
+  width: 450px;
+  height: 60px;
+  border-radius: 7px;
+  padding-left: 10px;
+  color: gray;
+ }
+ .input3  select{
+  margin-left: 115px;
+}
+.input4  select {
+  margin-left: -195px;
+}
+.input3 label{
+  position: relative;
+  top: -45px;
+  left: 280px;
+  }
+.input4 label{
+    position: relative;
+    top: -45px;
+    left: 30px;
+}
+.third-container{
+  display: flex;
+}
+.input5  input, .input6  input {
+  border: 1px solid rgb(24, 190, 2);
+  width: 435px;
+  height: 60px;
+  border-radius: 7px;
+  padding-left: 10px;
+ }
+ .input5  input{
+  margin-left: 200px;
+  margin-top: 40px;
+
+}
+.input6  input {
+  margin-left: -70px;
+  margin-top: 40px;
+}
+.input5 label{
+  position: relative;
+  top: -40px;
+  left: 280px;
+  }
+.input6 label{
+    position: relative;
+    top: -40px;
+    left: 30px;
+}
+.four-container{
+  display: flex;
+}
+.input7  input, .input8  input {
+  border: 1px solid rgb(24, 190, 2);
+  width: 435px;
+  height: 60px;
+  border-radius: 7px;
+  padding-left: 10px;
+  margin-top: 40px;
+
+ }
+ .input7  input{
+  margin-left: 230px;
+}
+.input8  input{
+  margin-left: -30px;
+}
+.input7 label{
+  position: relative;
+  top: -45px;
+  left: 280px;
+}
+.input8 label{
+    position: relative;
+    top: -45px;
+    left: 20px;
+}
+.five-container{
+  display: flex;
+}
+.input9  input, .input10 input {
+  border: 1px solid rgb(24, 190, 2);
+  width: 435px;
+  height: 60px;
+  border-radius: 7px;
+  padding-left: 10px;
+ }
+ .input9  input{
+  margin-left: 230px;
+  margin-top: 40px;
+
+}
+.input10  input {
+  margin-left: -145px;
+  margin-top: 40px;
+}
+ .input9 label{
+  position: relative;
+  top: -40px;
+  left: 280px;
+  }
+.input10 label{
+    position: relative;
+    top: -40px;
+    left: 30px;
+} 
+.six-container{
+  display: flex;
+}
+.input11  input, .input12  select {
+  border: 1px solid rgb(24, 190, 2);
+  width: 435px;
+  height: 60px;
+  border-radius: 7px;
+  padding-left: 10px;
+  color: gray;
+ }
+ .input11  input{
+  margin-left: 180px;
+  margin-top: 40px;
+
+}
+.input12 select {
+  margin-left: -70px;
+  margin-top: 40px;
+}
+.input11 label{
+  position: relative;
+  top: -40px;
+  left: 280px;
+  }
+.input12 label{
+    position: relative;
+    top: -40px;
+    left: 30px;
+}
+.seven-container{
+  display: flex;
+}
+.seven-container input{
+  border: 1px solid rgb(24, 190, 2);
+  border-radius: 7px;
+  width: 920px;
+  height: 60px;
+  margin-top: 50px;
+  margin-left: 210px;
+  padding-left: 10px;
+}
+.seven-container label{
+  position: relative;
+  top: 30px;
+  left: 270px;
+}
+.eight-container{
+  display: flex;
+}
+.eight-container select{
+  border: 1px solid rgb(24, 190, 2);
+  border-radius: 7px;
+  width: 930px;
+  height: 60px;
+  margin-top: 50px;
+  margin-left: 150px;
+  padding-left: 10px;
+  color: gray;
+}
+.eight-container label{
+  position: relative;
+  top: 30px;
+  left: 270px;
+}
+.nine-container{
+  display: flex;
+}
+.nine-container select{
+  border: 1px solid rgb(24, 190, 2);
+  border-radius: 7px;
+  width: 930px;
+  height: 60px;
+  margin-top: 50px;
+  margin-left: 110px;
+  padding-left: 10px;
+  color: gray;
+}
+.nine-container label{
+  position: relative;
+  top: 30px;
+  left: 270px;
+}
+.picture-container{
+  display: flex;
+  margin-left: 270px;
+  font-family: sans-serif;
+}
+
+.picture-container div{
+  width: 90px;
+  height: 80px;
+  border: 2px dotted rgb(182, 167, 167);
+ padding-top: 40px;
+ padding-left: 20px;
+ margin-top: 50px;
+ margin-left: -50px;
+ border-radius: 10px;
+}
+.picture-container label{
+ margin-top: 25px;
+ color: rgb(0, 153, 255);
+}
+.picture-container ul{
+  list-style: none;
+  font-size: 14px;
+  margin-left: 20px;
+  margin-top: 60px;
+}
+.information-container ol{
+  font-family: sans-serif;
+  margin-left: 250px;
+  margin-top: 40px;
+  font-size: 14px;
+}
+.Robot-gif{
+  margin-left: 250px;
+}
+.card button{
+  background-color:  rgb(91, 160, 224);
+  width: 900px;
+  margin-top: 30px;
+  margin-left: 250px;
+  height: 40px;
+  border-radius: 7px ;
+  border: 2px solid rgb(91, 160, 224);
+  color: white;
+}
